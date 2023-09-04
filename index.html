@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Pokedex</title>
+    <link rel="icon" href="favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+
+</head>
+<body>
+
+    <main>
+        <div class="area-pokedex">
+            <img src="" alt="pokemon" class="pokemon_image">
+            <img src="" alt="pokemonshiny" class="pokemon_image_shiny">
+
+            <h1 class="pokemon_data">
+                <span class="pokemon_name"></span> - 
+                <span class="pokemon_number"></span>
+            </h1>
+
+            <form class="form">
+                <input type="search" class="input_search" placeholder="Name or Number" required>
+            </form>
+
+            <div class="buttons">
+                <button class="button btn-prev">&lt; Prev</button>
+                <button class="button btn-next">Next &gt;</button>
+            </div>
+            <img src="images/pokedex.png" alt="pokedex" class="pokedex">
+        </div>
+
+        <div class="area-info">
+            
+            <h2 class="info_name"></h2>
+
+            <div class="desc">
+                <span class="info_desc"></span>
+            </div>
+
+            <div class="typests">
+                Type 1:<span class="tipos tipo1"></span><br>
+                Type 2:<span class="tipos tipo2"></span>
+                <div class="sts">
+                    <span class="sts-name">hp: </span><span class="hp"></span><br>
+                    <span class="sts-name">attack: </span><span class="attack"></span><br>
+                    <span class="sts-name">defense: </span><span class="defense"></span><br>
+                    <span class="sts-name">sp. atk: </span><span class="spattack"></span><br>
+                    <span class="sts-name">sp. dfs: </span><span class="spdefense"></span><br>
+                    <span class="sts-name">speed: </span><span class="speed"></span><br>
+                </div>
+            </div>
+
+            <div class="altsprite">
+                <img src="" alt="backsprite" class="backsprite">
+                <img src="" alt="backspriteshiny" class="backsprite_shiny">
+            </div>
+
+        <input type="checkbox" class="shinycheckbox">
+        <label for="shinycheckbox" id="labelshiny">Shiny</label>
+
+        </div>
+    </main>
+
+</body>
+</html>
